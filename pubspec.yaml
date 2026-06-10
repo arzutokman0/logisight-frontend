@@ -1,0 +1,35 @@
+name: frontend
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Senin yeni eklediğin harita ve grafik paketleri:
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.0
+  syncfusion_flutter_gauges: ^24.1.41
+  geolocator: ^13.0.1
+  # Eski projeden gelen paketler:
+  http: ^1.2.0
+  flutter_tts: ^4.0.2
+  fl_chart: ^1.2.0
+  cupertino_icons: ^1.0.8
+  sensors_plus: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Resimlerimizi buraya tanımlıyoruz:
+  assets:
+    - assets/images/
