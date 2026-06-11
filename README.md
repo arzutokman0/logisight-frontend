@@ -1,17 +1,21 @@
-# frontend
+# LogiSight 🚛✨
+*AI-Powered Driver Behavior Analysis Platform*
 
-A new Flutter project.
+LogiSight, lojistik operasyonlarında sürücü güvenliğini artırmak amacıyla geliştirilmiş, sensör verilerini yapay zeka ile analiz eden modern bir web platformudur. Proje, tam yığın (full-stack) geliştirme prensipleriyle ayrık (decoupled) mimaride inşa edilmiştir.
 
-## Getting Started
+## 🔗 Canlı Proje Linkleri
+* **Frontend (Web App):** [Projeni İncele](https://logisight-app.netlify.app)
+* **Backend (API):** [API Endpoint](https://logisight-backend-xxxx.onrender.com) *(Kendi Render linkini buraya eklemelisin)*
 
-This project is a starting point for a Flutter application.
+## 🛠️ Kullanılan Teknolojiler
+* **Frontend:** Flutter Web, Dart
+* **Backend:** Python, FastAPI, Uvicorn
+* **Yapay Zeka:** Scikit-learn, Google Gemini API
+* **Deployment:** Netlify (Frontend) & Render (Backend)
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Proje Mimarisi
+Proje profesyonel endüstri standartlarına uygun olarak iki ayrı repository halinde yönetilmektedir:
+1. `logisight-frontend`: Kullanıcı arayüzü ve API iletişim katmanı.
+2. `logisight-backend`: Veri işleme, makine öğrenmesi modelleri ve LLM entegrasyonu.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> Projenin oluşturulma süreci, gereksinimleri ve kapsamı hakkında daha fazla bilgi için `MVP_Plan.md` ve `PRD.md` dosyalarını inceleyebilirsiniz.
