@@ -101,7 +101,9 @@ class _TripFormScreenState extends State<TripFormScreen> {
       return;
     }
 
-    final url = Uri.parse('http://127.0.0.1:8000/analyze-trip');
+    final url = Uri.parse(
+      'https://logisight-backend-xxxx.onrender.com/analyze-trip',
+    );
     try {
       final response = await http.post(
         url,
