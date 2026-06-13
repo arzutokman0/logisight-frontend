@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class SensorService {
-  final String baseUrl = "https://logisight-backend-xxxx.onrender.com";
+  final String baseUrl = "https://logisight-backend.onrender.com";
 
   Future<Map<String, dynamic>> sendSensorData(
     double gx,
